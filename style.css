@@ -36,7 +36,6 @@ header {
 .head-left, p{
     flex: 1;
     color: white;
-    width: ;
 
 }
 
@@ -53,16 +52,15 @@ header {
 .head-right{
     flex: 1;
     width: 90%;
-    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    
 }
 .head-right img {
-height: 100px;
-width: 200px;
-
+    width: 100%;
+    border-radius: 10px;
 }
 
 h1 {
@@ -80,7 +78,7 @@ h1 {
 
 .info {
    text-align: center;
-   margin: 25px;
+   margin: 75px;
 }
 
 h2 {
@@ -111,7 +109,7 @@ h2 {
 
 
 .random img {
-    border: 1px solid blue;
+   
     border-radius: 10px;
     width: 150px;
     height: 150px;
